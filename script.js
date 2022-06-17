@@ -9,7 +9,7 @@ for (let index = 0; index < listaEmail.length; index++) {
     }     
 }
 
-if (degno==true){
+if (degno){
     console.log("sei degno, puoi giocare")
     const userNumber = Math.floor(Math.random()*6)+1;
     const rng = Math.floor(Math.random()*6)+1;
